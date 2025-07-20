@@ -17,7 +17,7 @@ function ThemeToggle() {
     }
   return (
     <label className="toggle text-base-content">
-      <input type="checkbox" value={theme} onClick={handleToggleTheme} checked={theme === "night"} className="theme-controller" />
+      <input type="checkbox" value={theme} onChange={handleToggleTheme} checked={theme === "night"} className="theme-controller" />
 
       <svg
         aria-label="sun"
